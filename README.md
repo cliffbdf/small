@@ -5,11 +5,11 @@ package for OS-X or Linux.
 
 For Linux, in the makefile, please change the line,
 ```
-		-native dmg
+-native dmg
 ```
 to
 ```
-		-native rpm
+-native rpm
 ```
 Execute each task in the makefile:
 ```
@@ -25,4 +25,8 @@ Then install the DMG (or RPM), and attempt to run the executable. For Mac:
 For Linux,
 ```
 /opt/smallish/smallish
+```
+Currently, an error is produced:
+```
+module small does not have a MainClass attribute, use -m <module>/<main-class>
 ```
