@@ -18,7 +18,13 @@ make jar
 make package
 ```
 
-Then install the DMG (or RPM), and attempt to run the executable. For Mac:
+Then install the DMG (or RPM). Note that the RPM might have dependencies, so
+I suggest installing it as a local install:
+```
+sudo yum -y --nogpgcheck localinstall smallish-1.0-1.x86_64.rpm
+```
+
+Once the application has been installed, attempt to run the executable. For Mac:
 ```
 /Applications/smallish/smallish
 ```
