@@ -18,3 +18,11 @@ make jar
 make package
 ```
 
+Then install the DMG (or RPM), and attempt to run the executable. For Mac:
+```
+/Applications/smallish/smallish
+```
+For Linux,
+```
+/opt/smallish/smallish
+```
