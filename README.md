@@ -11,3 +11,10 @@ to
 ```
 		-native rpm
 ```
+Execute each task in the makefile:
+```
+make compile
+make jar
+make package
+```
+
