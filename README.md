@@ -1,6 +1,6 @@
 # small
 
-A trivial demo os the Java module system. Appears to fail to generate a working deployable
+A trivial demo of the Java module system. Appears to fail to generate a working deployable
 package for OS-X or Linux.
 
 For Linux, in the makefile, please change the line,
