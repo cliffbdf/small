@@ -1,9 +1,9 @@
 # small
 
 A trivial demo of the Java module system. Appears to fail to generate a working deployable
-package for OS-X or Linux.
+package for OS-X or Centos 7 Linux.
 
-For Linux, in the makefile, please change the line,
+For Centos 7 Linux, in the makefile, please change the line,
 ```
 -native dmg
 ```
